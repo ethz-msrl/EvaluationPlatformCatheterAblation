@@ -190,6 +190,13 @@ The following XML script helps in establishing the necessary static transformati
 </launch>
 ```
 
+The model and the corresponding transformations can then be visualized in [Rviz](http://wiki.ros.org/rviz) as illustrated below:
+
+![GUI](./images/gui.png)
+
+_Figure 6: Heart model and relevant transformations visualized in Rviz._
+
+
 ## 4. Physical Setup
 
 In this section, we explain the placement of the catheter and the complete arrangement of the setup.
@@ -198,18 +205,18 @@ First, a sheath is positioned inside the model such that the opening is located 
 
 ![Full Setup](./images/full_setup.JPG)
 
-_Figure 5: The complete setup, showcasing all the components properly assembled._
+_Figure 7: The complete setup, showcasing all the components properly assembled._
 
 The catheter is advanced through the sheath such that its color-marked tip is located inside the left atrium in front of the cameras:
 
 ![Catheter](./images/catheter.JPG)
 
-_Figure 6: The catheter as positioned in the physical setup._
+_Figure 8: The catheter as positioned in the physical setup._
 
-This setup allows for the tracking of the catheter tip inside the model as illustrated in the following animation.
+This setup allows for the tracking of the catheter tip inside the model as illustrated in the following GIF:
 ![Tracking GIF](./images/tracking.gif) 
 
-_Figure 7: An animation demonstrating the catheter tracking system in the model._
+_Figure 9: A GIF demonstrating the catheter tracking system in the model._
 
 ## 5. Reference
 
